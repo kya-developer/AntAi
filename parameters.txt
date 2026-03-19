@@ -1,0 +1,144 @@
+PROJECT_NAME: Ant Colony Behavior Prediction Model
+PROJECT_TYPE: Supervised Learning
+FRAMEWORK: TensorFlow (Keras API)
+LANGUAGE: Python
+
+# -----------------------------
+# Problem Definition
+# -----------------------------
+TASK: Multiclass classification
+TARGET_VARIABLE: behavior
+TARGET_DESCRIPTION:
+  Predicts the dominant ant colony behavior during a fixed observation window
+TARGET_CLASSES:
+  0 = low_activity
+  1 = foraging
+  2 = nest_work
+  3 = high_activity
+
+# -----------------------------
+# Input Data Specification
+# -----------------------------
+DATA_FORMAT: JSON (flat, record-per-observation)
+DATA_FILE: ant_data.json
+ONE_RECORD_EQUALS: one observation window
+
+REQUIRED_FIELDS:
+  temperature: float (degrees Celsius)
+  humidity: float (percentage)
+  light: boolean (true = light, false = dark)
+  hour: integer (0–23)
+  species: string (ant species identifier)
+  behavior: string (label)
+
+OPTIONAL_FIELDS:
+  none
+
+# -----------------------------
+# Feature Engineering
+# -----------------------------
+NUMERIC_FEATURES:
+  - temperature
+  - humidity
+  - hour
+  - light (boolean → int)
+
+CATEGORICAL_FEATURES:
+  - species
+
+CATEGORICAL_ENCODING:
+  species:
+    method: StringLookup
+    output: integer index
+    handle_unknown: true
+    downstream_encoding: optional one-hot or embedding
+
+TARGET_ENCODING:
+  method: label encoding
+  mapping:
+    low_activity: 0
+    foraging: 1
+    nest_work: 2
+    high_activity: 3
+
+# -----------------------------
+# Vectorization & Pipeline
+# -----------------------------
+VECTORIZATION_LOCATION: TensorFlow preprocessing layers
+PIPELINE_ORDER:
+  - load JSON
+  - extract fields
+  - numeric casting
+  - categorical lookup (species)
+  - concatenate features
+  - model input
+
+BATCHING:
+  enabled: true
+  batch_size: 32
+
+SHUFFLING:
+  enabled: true
+
+# -----------------------------
+# Model Architecture
+# -----------------------------
+MODEL_TYPE: Dense Neural Network
+INPUTS:
+  numeric_input_shape: [4]
+  categorical_input_shape: [1]  # species index
+
+HIDDEN_LAYERS:
+  - units: 32
+    activation: relu
+  - units: 32
+    activation: relu
+
+OUTPUT_LAYER:
+  units: 4
+  activation: softmax
+
+# -----------------------------
+# Training Configuration
+# -----------------------------
+OPTIMIZER: Adam
+LOSS_FUNCTION: SparseCategoricalCrossentropy
+METRICS:
+  - accuracy
+
+EPOCHS: 30-100
+VALIDATION_SPLIT: 0.2
+
+# -----------------------------
+# Evaluation
+# -----------------------------
+PRIMARY_METRIC: accuracy
+SECONDARY_METRICS:
+  - confusion_matrix (optional)
+
+# -----------------------------
+# Assumptions & Constraints
+# -----------------------------
+ASSUMPTIONS:
+  - Observations represent colony-level behavior, not individual ants
+  - Environmental conditions influence behavior
+  - Species influences behavior patterns
+
+CONSTRAINTS:
+  - Dataset may contain synthetic or simulated observations
+  - Model is a prototype and not biologically authoritative
+
+# -----------------------------
+# Extension Paths (Non-required)
+# -----------------------------
+OPTIONAL_EXTENSIONS:
+  - Replace dense model with LSTM for time-series prediction
+  - Predict continuous activity level (regression)
+  - Add anomaly detection via autoencoder
+  - Introduce species embeddings
+
+# -----------------------------
+# Reproducibility
+# -----------------------------
+RANDOM_SEED: 42
+

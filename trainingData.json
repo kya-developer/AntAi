@@ -1,0 +1,417 @@
+[
+    {
+        "tempurature": 0.7,
+        "humidity": 65,
+        "light": false,
+        "time": 14,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 8.5,
+        "humidity": 70,
+        "light": true,
+        "time": 11,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 14.2,
+        "humidity": 60,
+        "light": true,
+        "time": 13,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 18.9,
+        "humidity": 55,
+        "light": true,
+        "time": 15,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 22.4,
+        "humidity": 52,
+        "light": true,
+        "time": 16,
+        "species": "lasius_niger",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 20.1,
+        "humidity": 58,
+        "light": true,
+        "time": 10,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 16.0,
+        "humidity": 63,
+        "light": false,
+        "time": 21,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 12.3,
+        "humidity": 68,
+        "light": true,
+        "time": 9,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 25.0,
+        "humidity": 50,
+        "light": true,
+        "time": 14,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 19.5,
+        "humidity": 55,
+        "light": true,
+        "time": 12,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 15.0,
+        "humidity": 65,
+        "light": false,
+        "time": 20,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 10.0,
+        "humidity": 70,
+        "light": false,
+        "time": 8,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 28.0,
+        "humidity": 45,
+        "light": true,
+        "time": 13,
+        "species": "formica_rufa",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 24.0,
+        "humidity": 50,
+        "light": true,
+        "time": 15,
+        "species": "formica_rufa",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 21.0,
+        "humidity": 55,
+        "light": true,
+        "time": 16,
+        "species": "formica_rufa",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 29.0,
+        "humidity": 40,
+        "light": true,
+        "time": 11,
+        "species": "messor_barbarus",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 27.5,
+        "humidity": 45,
+        "light": true,
+        "time": 14,
+        "species": "messor_barbarus",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 23.0,
+        "humidity": 50,
+        "light": true,
+        "time": 10,
+        "species": "messor_barbarus",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 12.0,
+        "humidity": 65,
+        "light": false,
+        "time": 19,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 18.0,
+        "humidity": 60,
+        "light": true,
+        "time": 13,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 22.0,
+        "humidity": 55,
+        "light": true,
+        "time": 15,
+        "species": "lasius_niger",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 16.5,
+        "humidity": 60,
+        "light": false,
+        "time": 21,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 14.5,
+        "humidity": 65,
+        "light": true,
+        "time": 9,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 20.0,
+        "humidity": 50,
+        "light": true,
+        "time": 12,
+        "species": "formica_rufa",
+        "behavior": "foraging"
+    },{
+        "tempurature": 6.0,
+        "humidity": 75,
+        "light": false,
+        "time": 6,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 9.5,
+        "humidity": 70,
+        "light": true,
+        "time": 8,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 17.2,
+        "humidity": 62,
+        "light": true,
+        "time": 11,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 23.5,
+        "humidity": 54,
+        "light": true,
+        "time": 14,
+        "species": "lasius_niger",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 21.0,
+        "humidity": 57,
+        "light": true,
+        "time": 17,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 18.0,
+        "humidity": 60,
+        "light": false,
+        "time": 22,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 13.0,
+        "humidity": 68,
+        "light": true,
+        "time": 9,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 26.0,
+        "humidity": 48,
+        "light": true,
+        "time": 15,
+        "species": "formica_rufa",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 22.5,
+        "humidity": 52,
+        "light": true,
+        "time": 13,
+        "species": "formica_rufa",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 19.0,
+        "humidity": 58,
+        "light": true,
+        "time": 10,
+        "species": "formica_rufa",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 24.5,
+        "humidity": 50,
+        "light": true,
+        "time": 16,
+        "species": "formica_rufa",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 17.0,
+        "humidity": 60,
+        "light": false,
+        "time": 20,
+        "species": "formica_rufa",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 30.0,
+        "humidity": 38,
+        "light": true,
+        "time": 14,
+        "species": "messor_barbarus",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 28.5,
+        "humidity": 42,
+        "light": true,
+        "time": 12,
+        "species": "messor_barbarus",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 25.0,
+        "humidity": 48,
+        "light": true,
+        "time": 9,
+        "species": "messor_barbarus",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 31.5,
+        "humidity": 35,
+        "light": true,
+        "time": 15,
+        "species": "messor_barbarus",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 27.0,
+        "humidity": 45,
+        "light": false,
+        "time": 19,
+        "species": "messor_barbarus",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 11.0,
+        "humidity": 72,
+        "light": true,
+        "time": 8,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 19.8,
+        "humidity": 59,
+        "light": true,
+        "time": 14,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 23.0,
+        "humidity": 53,
+        "light": true,
+        "time": 16,
+        "species": "lasius_niger",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 15.5,
+        "humidity": 66,
+        "light": false,
+        "time": 21,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    },
+    {
+        "tempurature": 18.3,
+        "humidity": 61,
+        "light": true,
+        "time": 11,
+        "species": "formica_rufa",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 20.5,
+        "humidity": 56,
+        "light": true,
+        "time": 13,
+        "species": "formica_rufa",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 26.5,
+        "humidity": 44,
+        "light": true,
+        "time": 10,
+        "species": "messor_barbarus",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 29.5,
+        "humidity": 39,
+        "light": true,
+        "time": 13,
+        "species": "messor_barbarus",
+        "behavior": "high_activity"
+    },
+    {
+        "tempurature": 22.0,
+        "humidity": 58,
+        "light": true,
+        "time": 17,
+        "species": "lasius_niger",
+        "behavior": "foraging"
+    },
+    {
+        "tempurature": 14.0,
+        "humidity": 67,
+        "light": true,
+        "time": 8,
+        "species": "lasius_niger",
+        "behavior": "nest_work"
+    },
+    {
+        "tempurature": 9.0,
+        "humidity": 73,
+        "light": false,
+        "time": 7,
+        "species": "lasius_niger",
+        "behavior": "low_activity"
+    }
+]

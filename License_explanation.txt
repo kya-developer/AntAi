@@ -1,0 +1,17 @@
+This summary is only for understanding. It is not part of the license and is not legally binding. The official KRL text is the only legally valid version.
+
+You can use, copy, change, and share the software for free as long as it’s not for commercial gain.
+
+If you want to use it in anything that makes money, you need to buy a one-time commercial license from the Licensor(s). Selling unmodified copies is never allowed.
+
+Use for AI training and AI projects is fully allowed.
+
+You cannot patent the software or anything based on it; doing so, or breaking major rules, ends your rights under the license immediately.
+
+The software is provided “as-is” with no guarantees. Licensor(s) aren’t responsible for any problems and do not owe support.
+
+Official versions released by the Licensor(s) will always remain open-source.
+
+You may share unmodified copies for free but cannot sell them, and you must not use the software’s name or branding in a way that looks like endorsement.
+
+Any legal disputes follow Netherlands law and must be resolved in the Netherlands.
